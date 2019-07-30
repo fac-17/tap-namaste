@@ -19,5 +19,8 @@
   "homepage": "https://github.com/fac-17/tap-namaste#readme",
   "devDependencies": {
     "tape": "^4.11.0"
+  },
+  "dependencies": {
+    "cowsay": "^1.4.0"
   }
 }

@@ -1,4 +1,5 @@
 const readline = require("readline");
+const cowsay = require("cowsay");
 let testCount = 0;
 let passedCount = 0;
 let failedCount = 0;
@@ -17,14 +18,14 @@ rl.on('line',(lineStr)=>{
     }
 })
 rl.on('close',()=>{
-    console.log(`TESTS Passed:${passedCount}, Failed:${failedCount}, Total:${testCount}`);
     if (failedCount){
-        console.log("FAIL");
+        console.log(cowsay.say({T:"U",e:"XX",text:`NOOOOOOOB
+${failedCount} Failed!`}));
+        console.log()
     } else {
+        console.log(cowsay.say({e:"OO",text:"GOOOOOOOD"}));
         console.log("All passed");
-        console.log(`
-        
-        `)
     }
+    console.log(`TESTS Passed:${passedCount}, Failed:${failedCount}, Total:${testCount}`);
 
 })
