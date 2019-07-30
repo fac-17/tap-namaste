@@ -1,0 +1,23 @@
+{
+  "name": "tap-namaste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-17/tap-namaste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac-17/tap-namaste/issues"
+  },
+  "homepage": "https://github.com/fac-17/tap-namaste#readme",
+  "devDependencies": {
+    "tape": "^4.11.0"
+  }
+}
